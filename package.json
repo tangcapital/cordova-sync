@@ -9,13 +9,21 @@
     "lint": "eslint .",
     "lint:prod": "NODE_ENV=prod ./node_modules/.bin/eslint ."
   },
-  "keywords": ["cordova","livereload","live-reload","development","build","tools"],
+  "keywords": [
+    "cordova",
+    "livereload",
+    "live-reload",
+    "development",
+    "build",
+    "tools"
+  ],
   "author": "Ryan P Hansen",
   "license": "ISC",
   "dependencies": {
     "commander": "^2.9.0",
     "fs-extra": "^3.0.0",
-    "node-status": "^1.0.0"
+    "node-status": "^1.0.0",
+    "node-watch": "^0.5.4"
   },
   "devDependencies": {
     "eslint": "^3.19.0",

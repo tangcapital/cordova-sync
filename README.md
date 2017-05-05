@@ -26,14 +26,16 @@ cordova-sync expects that this script will compile any source code from the *./s
 
 `cordova-sync [path_to_app] [options]`
 
-[path_to_app]             The relative path to the Cordova Project
+| [path_to_app]               | The relative path to the Cordova Project       | (Required)   |
 
 ## Options
 
--w, --watch               If present the package will watch *src* directory and rebuild on file change
--s, --src [path_to_src]   The relative path to the source code in your *web* directory (default: src)
--d, --dist [path_to_dist] The relative path to the distribution code in your *web* directory (default: dist)
--p, --physical            Build the app onto a physical device
+| Option                    | Description                                                                        | Default |
+|---------------------------|------------------------------------------------------------------------------------|---------|
+| -w, --watch               | If present the package will watch *src* directory and rebuild on file change       | false   |
+| -s, --src [path_to_src]   | The relative path to the source code in your *web* directory (default: src)        | src     |
+| -d, --dist [path_to_dist] | The relative path to the distribution code in your *web* directory (default: dist) | dist    |
+| -p, --physical            | Build the app onto a physical device                                               | false   |
 
 ##Notes
 

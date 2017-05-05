@@ -1,6 +1,6 @@
 {
   "name": "cordova-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec 'npm run lint && npm test && npm start'",

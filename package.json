@@ -1,0 +1,31 @@
+{
+  "name": "cordova-sync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec 'npm run lint && npm test && npm start'",
+    "test": "jest .",
+    "start": "NODE_ENV=dev node index.js",
+    "lint": "eslint .",
+    "lint:prod": "NODE_ENV=prod ./node_modules/.bin/eslint ."
+  },
+  "keywords": ["cordova","livereload","live-reload","development","build","tools"],
+  "author": "Ryan P Hansen",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^3.0.0",
+    "node-status": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "jest": "^19.0.2",
+    "nodemon": "^1.11.0",
+    "pre-commit": "^1.2.2"
+  },
+  "bin": {
+    "cordova-sync": "index.js",
+    "csync": "index.js"
+  },
+  "description": "Respond to file changes and build Cordova application"
+}

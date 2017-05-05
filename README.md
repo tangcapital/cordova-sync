@@ -28,18 +28,15 @@ This project has the plugins and platform set in a config the web project is res
 
 `cordova-sync [path_to_app] [options]`
 
-|---------------|------------------------------------------|--------------|
-| [path_to_app] | The relative path to the Cordova Project | (Required)   |
-
 ## Options
 
-| Option                    | Description                                                                        | Default |
-|---------------------------|------------------------------------------------------------------------------------|---------|
-| -w, --watch               | If present the package will watch *src* directory and rebuild on file change       | false   |
-| -s, --src [path_to_src]   | The relative path to the source code in your *web* directory (default: src)        | src     |
-| -d, --dist [path_to_dist] | The relative path to the distribution code in your *web* directory (default: dist) | dist    |
-| -p, --physical            | Build the app onto a physical device                                               | false   |
-
+| Option                    | Description                                                                        | Default    |
+|---------------------------|------------------------------------------------------------------------------------|------------|
+| [path_to_app]             | The relative path to the Cordova Project                                           | (Required) |
+| -w, --watch               | If present the package will watch *src* directory and rebuild on file change       | false      |
+| -s, --src [path_to_src]   | The relative path to the source code in your *web* directory (default: src)        | src        |
+| -d, --dist [path_to_dist] | The relative path to the distribution code in your *web* directory (default: dist) | dist       |
+| -p, --physical            | Build the app onto a physical device                                               | false      |
 
 ## Notes
 

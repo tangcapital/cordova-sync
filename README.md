@@ -18,6 +18,8 @@ cordova-sync expects that this script will compile any source code from the *./s
 
 **Cordova Project**
 
+This project has the plugins and platform set in a config the web project is responsible for the UI
+
 ## Dependencies
 
 `xcode-select --install`
@@ -26,7 +28,8 @@ cordova-sync expects that this script will compile any source code from the *./s
 
 `cordova-sync [path_to_app] [options]`
 
-| [path_to_app]               | The relative path to the Cordova Project       | (Required)   |
+|---------------|------------------------------------------|--------------|
+| [path_to_app] | The relative path to the Cordova Project | (Required)   |
 
 ## Options
 
@@ -37,7 +40,8 @@ cordova-sync expects that this script will compile any source code from the *./s
 | -d, --dist [path_to_dist] | The relative path to the distribution code in your *web* directory (default: dist) | dist    |
 | -p, --physical            | Build the app onto a physical device                                               | false   |
 
-##Notes
+
+## Notes
 
 - XCode Command line tools are required in order to build the script
 - When building to a physical device the Provisioning Profile must be set in XCode before the app can build
